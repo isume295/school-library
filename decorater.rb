@@ -1,8 +1,9 @@
 require_relative 'nameable'
 require_relative 'person'
 
-class Decorator
+class Decorator < Nameable
   def initialize(nameable)
+    super()
     @nameable = nameable
   end
 
