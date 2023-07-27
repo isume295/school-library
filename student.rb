@@ -17,5 +17,3 @@ class Student < Person
     @age
   end
 end
-
- 
