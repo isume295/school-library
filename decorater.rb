@@ -1,7 +1,6 @@
 require_relative 'nameable'
 require_relative 'person'
 
-
 class Decorator
   def initialize(nameable)
     @nameable = nameable
