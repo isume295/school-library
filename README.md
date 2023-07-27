@@ -40,10 +40,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Enumerables] <a name="about-project"></a>
+# 📖 [Student library] <a name="about-project"></a>
 
 
-**Enumerables** is a simple application built ruby to learn classes, 
+**Student library** is a simple application built ruby to learn classes, 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,7 +79,7 @@
 To get a local copy up and running, follow these steps:
 
 - Clone this repo as described in the setup section. 
-- Make modifications as peferred 
+- Make modifications as preferred 
 
 
 ### Prerequisites
@@ -168,7 +168,7 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-- Thanks to all Microverse community
+- Thanks to all the Microverse community
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
