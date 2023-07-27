@@ -1,31 +1,23 @@
-class Person
+require_relative 'nameable'
+
+class Person < Nameable
+  attr_accessor :age, :name
+
   def initialize(id, age, name = 'Unknown', parent_permission: true)
+    super()
     @age = age
     @name = name
     @id = id
     @parent_permission = parent_permission
   end
 
-  # getters
+  # getters for id
   def gets_id
     @id
   end
 
-  def gets_name
+  def correct_name
     @name
-  end
-
-  def gets_age
-    @age
-  end
-
-  # setters
-  def sets_age(age)
-    @age = age
-  end
-
-  def sets_name(name)
-    @age = name
   end
 
   private
