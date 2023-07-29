@@ -2,7 +2,7 @@ require_relative 'nameable'
 require_relative 'rental'
 
 class Person < Nameable
-  attr_accessor :age, :name, :rental
+  attr_accessor :age, :name, :rentals
 
   def initialize(age, name = 'Unknown', parent_permission: true)
     super()
@@ -22,8 +22,9 @@ class Person < Nameable
     @name
   end
 
-  def add_rental(book, date)
-    Rental.new(date, book, self)
+  def rent_book(rental)
+    @rentals << rental unless @rentals.include?(rental)
+    rental.person = self
   end
 
   private
