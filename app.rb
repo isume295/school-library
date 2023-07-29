@@ -106,9 +106,9 @@ class App
     person_number = gets.chomp.to_i
     return puts 'Invalid person number!' if person_number >= @people.length
 
-    rental = Rental.new(Date.today, books[book_number], people[person_number])
-    people[person_number].rent_book(rental)
-    books[book_number].add_rentals(rental)
+    rental = Rental.new(Date.today, @books[book_number], @people[person_number])
+    @people[person_number].rent_book(rental)
+    @books[book_number].add_rentals(rental)
     puts 'Rental created'
   end
 
