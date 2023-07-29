@@ -31,8 +31,7 @@ end
 
 def main
   app = App.new
-
-
+  
   loop do
     display_menu
     choice = gets.chomp.to_i
